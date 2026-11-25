@@ -102,5 +102,6 @@ A continuación se detalla cada una de las fases representadas:
 * **`TABLA JUGADORES`**: Mantiene los datos personales del competidor y lo vincula a su organización mediante la clave foránea `EQUIPO (FK)`.
 * **`TABLA DETALLES_PARTIDO`**: Resuelve de forma limpia qué equipos se enfrentaron en cada encuentro (`ID_PARTIDO`, `TAG_EQUIPO_1`, `TAG_EQUIPO_2`), reemplazando los campos sueltos de las fases anteriores.
 * **`VIDEOJUEGO`**, **`TORNEO`**, **`TABLA PARTIDO`** y **`TABLA ESTADISTICAS_JUGADOR`**: Consolidan la estructura relacional definitiva mediante claves foráneas (FK), garantizando la integridad referencial y evitando anomalías de actualización.
-<img width="4632" height="2939" alt="EJERCICIO 15-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/69c9159e-06da-4fdd-a663-b16990965441" />
+<img width="4632" height="2907" alt="EJERCICIO 15-FASES DE NORMALIZACION drawio" src="https://github.com/user-attachments/assets/0d09d8ea-ce23-434a-9880-577d38656ac5" />
+
 
